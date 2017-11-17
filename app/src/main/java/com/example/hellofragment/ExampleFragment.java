@@ -23,6 +23,8 @@ public class ExampleFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.example_fragment, container,false);
         ImageView image = rootView.findViewById(R.id.image);
         image.setImageResource(R.drawable.worm);
+        ImageView image1 = rootView.findViewById(R.id.image1);
+        image1.setImageResource(R.drawable.worm1);
         return rootView;
 //        return super.onCreateView(inflater, container, savedInstanceState);
     }
